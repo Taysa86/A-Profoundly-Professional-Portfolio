@@ -3,40 +3,82 @@
 <html lang="eng">
 
 <Head>
-    <header>
-        <title><H1>Taylor Sample</H1></title>
-            
-            <ref class="">Nav</ref>
-            <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
-            </ul>
-            <h2>Cool subtitle here</h2>
-    </header>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
 </Head>
 
 <body>
-    <div>
+    <header>
         <div>
-            <ref class="About">
-                <p>
+            <div class="Name">
+                <h1>Taylor Sample</h1>
+            </div>
+            
+            <div class="Nav">
+                <ul>
+                    <li>About Me</li>
+                    <li>Work</li>
+                    <li>Contact Me</li>
+                    <li>Resume</li>
+                </ul>
+            </div>
+            
+            <div class="Sub">
+            <h2>Cool subtitle here</h2>
+            </div>
+        </div>   
+    </header>
 
-                </p>
-            </ref>
-        </div>
-        <div>    
-            <ref class="Work">
-
-            </ref>
+    <div class="Sections">
+        <div>
+            <h2>About Me</h2>
         </div>
         <div>
-            <ref class="Contact">
-
-            </ref>
+            <h2>Work</h2>
         </div>
+        <div>   
+            <h2>Contact Me</h2>
+        </div>
+         <div> 
+            <h2>Resume</h2>
+        </div> 
+
+
     </div>
+    
+    
+    <div class="Content">
+        <main>
+            <div>
+                <div id="About" class="About">
+                    <p>
+                        This is a paragraph about me. The "about me" button in the nav class should bring me here.
+                    </p>
+                </div>
+            </div>
+            <div>    
+                <div id="Work" class="Work">
+                    My Work
+                </div>
+            </div>
+            <div>
+                <div id="Contact" class="Contact">
+                    <p>
+                        My contact info
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div id="Resume" class="Resume">
+                    <p>
+                        Resume
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>      
 </body>
 
 <footer>
