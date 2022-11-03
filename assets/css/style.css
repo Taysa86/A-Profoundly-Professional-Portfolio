@@ -89,6 +89,9 @@ flex: ;
 flex-flow: wrap ;
 }
 
+.section a {
+    display: flex;
+}
 .first-challenge {
     display:flex;
     height: 2%;
