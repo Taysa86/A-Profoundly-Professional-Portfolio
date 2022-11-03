@@ -1,19 +1,129 @@
+/*setting background for the entire body of image, courtesy of MDN web Docs*/
+.body {
+    background-image: url(../images/Minnesota_sunrise.jpg);
+    background-color: #c50a04;
+    
+}
 
-
+/* css for overall header section */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: auto;
+    height: 155px;
+    width: 100%;
+    background-color:bisque; 
+}
+/* should contain classes "h1" and "nav" all on the same line */
+.Top-Bar {
+    display: inside;
+    height: 50px;
+    width: 100%;
+    line-height: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.Name { color: blueviolet;
+/* css for main header "title" */
+.h1 {
+    font-size: large ; 
+    padding-left: 20px;
+   
+    text-align: center;
+    height: 50px;
+    color: red;
     }
+/* links to page content */
+.Nav {
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   font-size: medium;
+    width: 100%;
+    color: black;
+    padding: fpx; 
+}
 
-.Nav { color: black;
+
+/* sub-title */
+.Sub { 
+    padding-top: 53px;
+    padding-right: 20px;
+    text-align: center;
+    color: red;
 
 }
 
-.Sub { color: red;
+/* main body; should contain sections for about me, work, contact me, and resume */
+.Content {
+    display: flex;
+    flex-flow: column;
+    align-content: flex-end;
+    
+}
 
+/* about me section; h2 title should be on the left with a right side border and text to the right */
+.About {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fish-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/* Work section; h2 title should be on the left with a right side border and boxed images/links to projects on the right */
+.Work {
+    display: ;
+    flex-flow: wrap;
+
+
+}
+
+.links {
+display: flex;
+flex: ;
+flex-flow: wrap ;
+}
+
+.first-challenge {
+    display:flex;
+    height: 2%;
+    width: 4%;
+    
+}
+
+.futpro {
+
+}
+
+/* contact me section; h2 title should be on the left with a right side border and my contact info, underlined, on the right */
+.Contact {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+
+}
+
+/* resume section; h2 title should be on the left with a right side border and an image/link to my resume on the right */
+.Resume {
+
+}
+
+/* CSS for the h2 titles in the four sections of content */
+.h3 {
+    border-bottom: 5px solid royalblue;
+    text-align: center;
+    padding-top: ;
+}
+.info {
+    display: flex;
+    flex-flow: wrap;
+    text-align: ;
+    width: 100%;
+    margin: 20px;
+    text-decoration-line: underline;
 }
