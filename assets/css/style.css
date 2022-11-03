@@ -68,6 +68,7 @@
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*personal image*/
 .fish-pic {
     display: block;
     margin-left: auto;
@@ -75,35 +76,39 @@
     width: 25%;
 }
 
-/* Work section; h2 title should be on the left with a right side border and boxed images/links to projects on the right */
+/* Work section; h2 title should be on top with bottom border and boxed images/links to projects below */
 .Work {
-    display: ;
+    display: flexbox;
+    position: static;
     flex-flow: wrap;
+    min-width: none;
+    min-height: none;
 
 
 }
-
+/*parent section for all project links */
 .links {
 display: flex;
-flex: ;
+flex: 0% ;
 flex-flow: wrap ;
+min-width: none;
+min-height: none;
 }
 
-.section a {
-    display: flex;
-}
+
 .first-challenge {
     display:flex;
+    flex-flow: wrap;
     height: 2%;
     width: 4%;
     
 }
-
+/* class for place holders created for future use */
 .futpro {
 
 }
 
-/* contact me section; h2 title should be on the left with a right side border and my contact info, underlined, on the right */
+/* contact me section; h2 title should be on the top with a bottom border and my contact info, underlined, below */
 .Contact {
     display: flex;
     flex-flow: column;
@@ -111,21 +116,21 @@ flex-flow: wrap ;
 
 }
 
-/* resume section; h2 title should be on the left with a right side border and an image/link to my resume on the right */
+/* resume section; h2 title should be on the top with a bottom border and a space for my resume below */
 .Resume {
 
 }
 
-/* CSS for the h2 titles in the four sections of content */
+/* CSS for the h3 titles in the four sections of content */
 .h3 {
     border-bottom: 5px solid royalblue;
     text-align: center;
-    padding-top: ;
+    
 }
 .info {
     display: flex;
     flex-flow: wrap;
-    text-align: ;
+    text-align: Left ;
     width: 100%;
     margin: 20px;
     text-decoration-line: underline;
