@@ -2,7 +2,7 @@
 
 ## Description
 
-I built this portfolio with the intention of presenting it to potential employers. I wanted a clean yet interesting looking platform to display my work and showcasing some of the skills I have developed during my engineering bootcamp. It presented several challenges as it was my first attempt to build something without starter code. My anchored link containing the image of a bridge would not respond to flexing like the place holder images representing future work. I overcame this by...
+I built this portfolio with the intention of presenting it to potential employers. I wanted a clean yet interesting looking platform to display my work and showcasing some of the skills I have developed during my engineering bootcamp. It presented several challenges as it was my first attempt to build something without starter code. My anchored link containing the image of a bridge would not respond to flexing like the place holder images representing future work. I overcame this by adding a flex-basis of 100% to the anchor and then adding a width of 100% to the image itself.
 
 
 ## Installation
@@ -18,6 +18,8 @@ N/A
     ![Screenshot of launched project website](./assets/images/screenshot.png)
 
 ## Credits
+    Christopher Otten, Senior Software Engineer at Target Corp - My younger brother,
+    he colaborated with me to overcome my issue with the image of the bridge refusing to flex.
 
     MDN Web Docs - This is where I researched how to add an image as my background.
     https://developer.mozilla.org/en-US/docs/Web/CSS/background-image

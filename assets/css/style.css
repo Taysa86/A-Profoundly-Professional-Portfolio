@@ -88,24 +88,29 @@
 }
 /*parent section for all project links */
 .links {
+padding: 5px;
 display: flex;
-flex: 0% ;
 flex-flow: wrap ;
-min-width: none;
-min-height: none;
+justify-content: space-between;
+
 }
 
-
-.first-challenge {
-    display:flex;
-    flex-flow: wrap;
-    height: 2%;
-    width: 4%;
+.links a {
+    flex-basis: 100%;
+}
     
-}
+.duluth {
+    width: 100%;
+}    
 /* class for place holders created for future use */
 .futpro {
+    padding: 5px;
+    min-width: 0px;
+    min-height: opx;
+}
 
+.Resume {
+    padding: 5px;
 }
 
 /* contact me section; h2 title should be on the top with a bottom border and my contact info, underlined, below */
@@ -116,10 +121,6 @@ min-height: none;
 
 }
 
-/* resume section; h2 title should be on the top with a bottom border and a space for my resume below */
-.Resume {
-
-}
 
 /* CSS for the h3 titles in the four sections of content */
 .h3 {
@@ -130,7 +131,7 @@ min-height: none;
 .info {
     display: flex;
     flex-flow: wrap;
-    text-align: Left ;
+    text-align: Left;
     width: 100%;
     margin: 20px;
     text-decoration-line: underline;
