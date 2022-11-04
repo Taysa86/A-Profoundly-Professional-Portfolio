@@ -94,14 +94,15 @@ flex-flow: wrap ;
 justify-content: space-between;
 
 }
-
+/*needed to get the duluth bridge image to respond to parent flex commands*/
 .links a {
     flex-basis: 100%;
 }
-    
+/*needed to get the duluth bridge image to respond to flex commands*/    
 .duluth {
     width: 100%;
-}    
+}
+
 /* class for place holders created for future use */
 .futpro {
     padding: 5px;
